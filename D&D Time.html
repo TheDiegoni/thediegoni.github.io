@@ -2,16 +2,18 @@
 
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1"><style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
       p {
         text-align: center;
-        font-size: 60px;
-        margin-top: 0px;
+        font-size: 30px;
+        margin-top: 40%;
+        font-weight: bold;
       }
     </style>
   </head>
 
-  <body>
+  <body bgcolor="#e4bf8a" text="#DF0000">
     <p id="demo"></p>
 
     <script>
@@ -26,12 +28,12 @@
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+        document.getElementById("demo").innerHTML = days + "\n" + hours + ":"
+  + minutes + ":" + seconds + ":";
 
         if (distance < 0) {
           clearInterval(x);
-          document.getElementById("demo").innerHTML = "EXPIRED";
+          document.getElementById("demo").innerHTML = "I CAST\nSUMMON PLAYER!!!";
         }
       }, 1000);
     </script>
