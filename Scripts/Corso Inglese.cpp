@@ -1,3 +1,10 @@
+/*
+	Autore: Diego Rocco
+	Descrizione: In una scuola si stanno raccogliendo le quote di partecipazione ad un Corso di Inglese.
+    Il referente del corso ha predisposto le adesioni degli alunni su 2 livelli.
+*/
+
+// Intestazione
 #include <iostream>
 using namespace std;
 
