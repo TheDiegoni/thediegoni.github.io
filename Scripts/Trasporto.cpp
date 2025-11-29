@@ -71,5 +71,5 @@ int main(){
    E = (1-E)*100;
 
    // Output
-   cout << "Prezzo a Biglietto: " << TR << "\nSconto: " << E << "%\n Costo Totale: " << Q;
+   cout << "Prezzo a Biglietto: " << TR << "\nSconto: " << E << "%\nCosto Totale: " << Q;
 }
