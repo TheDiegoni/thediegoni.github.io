@@ -4,10 +4,10 @@ Incremento
 Media3
 Perimetro
 Piastrelle
-Pitagora
 Pittura
 Pizzaiolo
 Prezzo Libro
 Punteggio
 
 Trasporto
+
