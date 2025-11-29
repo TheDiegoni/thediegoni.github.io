@@ -2,7 +2,11 @@
 Nome del Programma: Calcolo Rimborso Cotral/Metro
 Autore: Diego Rocco
 Data: 13/11/2025
-Descrizione: Calcolo del rimborso scolastico sulle spese si spostamento.
+Descrizione: La scuola rimborsa il 25% del costo dell'abbonamento se lo studente abita
+	nella stessa provincia, usa l'autobus ed è distante almeno 20 km dalla scuola; alle
+	stesse condizioni se usa il treno il rimborso è pari al 30%. Dopo aver inserito il
+	nominativo dello studente, il costo dell'abbonamento e gli altri dati necessari,
+	calcolare e stampare il rimborso e il nominativo dello studente.
 */
 
 // Intestazione
