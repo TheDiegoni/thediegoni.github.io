@@ -50,7 +50,7 @@ int main(){
    cout << "Inserisci la tua Età: ";
    cin >> E;
    if(E<0){
-      E=0;
+      E=1;
       cout << "ERRORE";
    }
     else{
