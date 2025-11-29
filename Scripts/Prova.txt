@@ -7,5 +7,3 @@ Piastrelle
 Pittura
 Pizzaiolo
 Prezzo Libro
-
-Trasporto
