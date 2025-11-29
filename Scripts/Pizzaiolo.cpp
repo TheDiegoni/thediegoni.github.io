@@ -12,7 +12,7 @@
 using namespace std;
 
 // Dichiarazione
-const int Farina=100, Pomodoro=350, Prosciutto=50;
+int Farina=100, Pomodoro=350, Prosciutto=50;
 int NumeroMargherite, NumeroProsciutto, TotalePizze;
 
 // Main
