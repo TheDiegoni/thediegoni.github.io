@@ -15,3 +15,5 @@ Prezzo Libro
 Punteggio
 Rimborso
 Viaggio
+
+Trasporto
