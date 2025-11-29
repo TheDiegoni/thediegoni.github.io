@@ -19,14 +19,15 @@
 using namespace std;
 
 // Dichiarazione
+int M;
 float TR, E, Q;
 
 // Main
 int main(){
    // Scelta Mezzo di Trasporto
    cout << "Inserisci il Mezzo che vuoi Utilizzare:\n1) Autobus\n2) Metro\n3) Treno Regionale\n4) Treno Veloce\n";
-   cin >> TR;
-   switch(TR){
+   cin >> M;
+   switch(M){
       case 1:
          TR = 1.5;
          break;
