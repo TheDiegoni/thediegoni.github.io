@@ -1,6 +1,5 @@
 Budget
 Computer
-Età
 Even
 Incremento
 Media
@@ -14,3 +13,4 @@ Prezzo Libro
 Punteggio
 
 Trasporto
+
