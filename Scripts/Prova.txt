@@ -2,7 +2,6 @@ Budget
 Computer
 Even
 Incremento
-Media
 Media3
 Perimetro
 Piastrelle
@@ -13,4 +12,5 @@ Prezzo Libro
 Punteggio
 
 Trasporto
+
 
