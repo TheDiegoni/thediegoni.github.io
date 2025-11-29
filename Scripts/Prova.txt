@@ -9,4 +9,3 @@ Pizzaiolo
 Prezzo Libro
 
 Trasporto
-Calc
