@@ -1,4 +1,3 @@
-Budget
 Computer
 Even
 Incremento
@@ -12,5 +11,3 @@ Prezzo Libro
 Punteggio
 
 Trasporto
-
-
