@@ -14,9 +14,9 @@ float N1, N2, S=0;
 // Main
 int main(){
    // Input Dati
-   cout << "Inserisci il Primo Numero";
+   cout << "Inserisci il Primo Numero: ";
    cin >> N1;
-   cout << "Inserisci il Secondo Numero";
+   cout << "Inserisci il Secondo Numero: ";
    cin >> N2;
 
    // Selezione e Calcolo
