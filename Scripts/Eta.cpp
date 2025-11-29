@@ -23,17 +23,17 @@ int main(){
 	// Input Informazioni 1° Studente
 	cout << "Nome Studente 1: ";
 	cin >> nome1;
-	cout << "Anno Studente 1: ";
+	cout << "Anno di Nascita " + nome1 + ": ";
 	cin >> anno1;
-	cout << "Classe Studente 1: ";
+	cout << "Classe " + nome1 + ": ";
 	cin >> classe1;
 
 	// Input Informazioni 2° Studente
 	cout << "Nome Studente 2: ";
 	cin >> nome2;
-	cout << "Anno Studente 2: ";
+	cout << "Anno di Nascita " + nome2 + ": ";
 	cin >> anno2;
-	cout << "Classe Studente 2: ";
+	cout << "Classe " + nome2 + ": ";
 	cin >> classe2;
 
 	// Input Anno Attuale
@@ -63,3 +63,4 @@ int main(){
 	 };
 	return 0;
 }
+
