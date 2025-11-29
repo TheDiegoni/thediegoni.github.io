@@ -17,7 +17,7 @@
 using namespace std;
 
 // Dichiarazione
-string dest;
+int dest;
 float ad, bam, adc, bamc, per, totc, totp;
 
 // Main
@@ -42,20 +42,20 @@ int main(){
 	
 	// Input ed Elaborazione Destinazione e Costo Totale
 	totc = ((ad*adc)+(bam*bamc))*per;
-	cout << "Destinazione (Italia, Europa, America o Altro): ";
+	cout << "Destinazione:\n1) Italia\n2) Europa\n3) America\n4) Altro\n";
 	cin >> dest;
 	if (totp>20){
-    switch(dest){
-      case "Italia":
-        totc *= 0.9;
-        break;
-      case "Europa":
-        totc *= 0.8;
-        break;
-      case "America":
-        totc *= 0.7;
-        break;
-    };
+		switch(dest){
+			case 1:
+				totc *= 0.9;
+				break;
+    		case 2:
+				totc *= 0.8;
+				break;
+			case 3:
+				totc *= 0.7;
+				break;
+		};
 	}
 
 	// Output
