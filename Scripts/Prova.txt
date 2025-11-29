@@ -10,6 +10,7 @@ Perimetro
 Piastrelle
 Pitagora
 Pittura
+Pizzaiolo
 Prezzo Libro
 Punteggio
 Rimborso
