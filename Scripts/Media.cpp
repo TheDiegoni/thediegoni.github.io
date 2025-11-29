@@ -14,9 +14,9 @@ float V1, V2, M;
 // Main
 int main(){
 	// Input Voti
-	cout << "Voto 1: ";
+	cout << "Inserisci Voto 1: ";
 	cin >> V1;
-	cout << "Voto 2: ";
+	cout << "Inserisci Voto 2: ";
 	cin >> V2;
 
 	// Calcolo e Confronto Media + Output
@@ -25,6 +25,6 @@ int main(){
 		cout << "Alunno Promosso";
 	}
 	 else{
-		cout << "Alunno Bocciato";
+		cout << "Alunno Rimandato";
 	 };
 }
