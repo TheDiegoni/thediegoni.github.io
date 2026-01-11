@@ -10,7 +10,7 @@ inserito due volte consecutive lo stesso numero.
 using namespace std;
 
 // Dichiarazione
-int N, I=0; // Numero in Input
+int N, I=0; // Numero Precedente, Numero in Input
 
 // Main
 int main(){
