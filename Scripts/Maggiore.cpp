@@ -14,7 +14,7 @@ float I, O=0; // Numero in Input, Numero Maggiore in Output
 // Main
 int main(){
     // Ciclo Input
-    for(int i=0; i<10; i++){
+    for(int j=0; j<10; j++){
         // Input Numero
         cout<<"Inserisci un numero: ";
         cin>>I;
