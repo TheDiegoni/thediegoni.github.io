@@ -11,7 +11,7 @@
 using namespace std;
 
 // Dichiarazione
-int N=0, C; // Quantità di 7, Quantità di cifre -1
+int N=0, C=0, T; // Quantità di 7, Quantità di cifre -1
 string S; // Stringa di controllo
 
 // Main
@@ -19,7 +19,12 @@ int main(){
     // Ciclo Elaborazione
     for(int i=1; i<=100; i++){
         S=to_string(i); // Assegnazione Valore alla Stringa
-        C=i/10; // Calcolo Cifre
+        // Calcolo Cifre
+        T=i;
+        while(T>0){
+           T=i/10;
+           C++;
+        };
 
         // Ciclo di Controllo
         for(int j=0; j<=C; j++){
