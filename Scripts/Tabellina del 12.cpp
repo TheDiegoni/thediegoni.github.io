@@ -10,16 +10,16 @@
 using namespace std;
 
 // Dichiarazione
-float n; // Numero inserito
+float N; // Numero inserito
 
 // Main
 int main(){
     // Input Numero
     cout<<"Inserisci un numero: ";
-    cin>>n;
+    cin>>N;
 
     // Ciclo Elaborazione
     for(int i=1; i<=12; i++){
-        cout<<n<<"*"<<i<<"="<<n*i<<endl; // calcolo e output multipli
+        cout<<N<<"*"<<i<<"="<<N*i<<endl; // calcolo e output multipli
     }; // Fine Ciclo
 }
