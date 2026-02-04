@@ -1,8 +1,8 @@
 /*
     Autore: Diego Rocco
-    Traccia: Una paninoteca vende panini a 5.50 euro‚ e bibite a 3 euro, e offre
+    Traccia: Una paninoteca vende panini a 5.50 euroâ€š e bibite a 3 euro, e offre
 		una promozione: se un panino e bibita vengono acquistati insieme, la
-		bibita e a meta prezzo. Scrivi una funzione che riceve in ingresso il
+		bibita e a metaÂ prezzo. Scrivi una funzione che riceve in ingresso il
 		numero di panini e di bibite complessivi richiesti da un gruppo di
 		clienti e calcola il totale da pagare.
 */
@@ -33,8 +33,8 @@ int main(){
 
 // Sottoprogramma Calcolo
 void C(){
-    // Controllo Quantita  e Calcolo Prezzo Bibite
-    if(b>=p){b=((b-p)*pb)+((b-(b-p))*(pb/2));}
+    // Controllo QuantitaÂ  e Calcolo Prezzo Bibite
+    if(b>=p){b=((b-p)*pb)+(p*(pb/2));}
      else{b*=pb/2;};
 
     p*=pp; // Calcolo Prezzo Panini
