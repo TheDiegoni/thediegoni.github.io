@@ -126,10 +126,10 @@ string lower(string Str){
 
 // Sottoprogramma Calcolo Prezzo Medio
 void PrM(float Pr[]){
-	float m=0; // Media
-	for(int i=0; i<q; i++){m+=Pr[i];}; // Ciclo Calcolo Prezzo Totale
-	m/=(float)q; // Calcolo Media
-	cout<<"Prezzo Medio: "<<m; // Output Media
+	float me=0; // Media
+	for(int i=0; i<q; i++){me+=Pr[i];}; // Ciclo Calcolo Prezzo Totale
+	me/=(float)q; // Calcolo Media
+	cout<<"Prezzo Medio: "<<me; // Output Media
 }
 
 // Sottoprogramma Prezzi Auto Rosse
