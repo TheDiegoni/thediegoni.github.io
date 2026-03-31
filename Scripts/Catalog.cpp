@@ -144,27 +144,27 @@ void PrR(float Pr[], string Co[]){
 // Sottoprogramma Marca Economica
 void MaE(string Ma[], float Pr[]){
 	// Dichiarazione Locale
-	int e=0; // Posizione Marca + Economica
+	int pu=0; // Posizione Marca + Economica
 
 	// Ciclo Find Economica
 	for(int i=1; i<q; i++){
-		if(Pr[i]<Pr[i-1]){e=i;}; // Controllo + Economica
+		if(Pr[i]<Pr[i-1]){pu=i;}; // Controllo + Economica
 	};
 
-	cout<<"Marca Meno Costosa: "<<Ma[e]; // Output
+	cout<<"Marca Meno Costosa: "<<Ma[pu]; // Output
 }
 
 // Sottoprogramma Ultimo Modello
 void MoN(string Mo[], int An[]){
 	// Dichiarazione Locale
-	int n=0; // Posizione Ultimo Modello
+	int pu=0; // Posizione Ultimo Modello
 
 	// Ciclo Find Nuova
 	for(int i=1; i<q; i++){
-		if(An[i]>An[i-1]){n=i;}; // Controllo + Nuova
+		if(An[i]>An[i-1]){pu=i;}; // Controllo + Nuova
 	};
 
-	cout<<"Ultimo Modello: "<<Mo[n]; // Output
+	cout<<"Ultimo Modello: "<<Mo[pu]; // Output
 }
 
 // Sottoprogramma Ordine di Prezzo
