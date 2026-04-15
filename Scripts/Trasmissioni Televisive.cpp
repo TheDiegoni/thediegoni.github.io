@@ -41,7 +41,7 @@ int main(){
 void Programma(int t){
     // Dichiarazione Locale
     TV T[t]; // Array Trasmissioni
-    int S; bool F=0; // Intero Scelta, Booleano Trovato Programma
+    int S; bool F; // Intero Scelta, Booleano Trovato Programma
 
     // Ciclo Input
     for(int i=0; i<t; i++){
