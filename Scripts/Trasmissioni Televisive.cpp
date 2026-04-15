@@ -47,7 +47,7 @@ void Programma(int t){
     for(int i=0; i<t; i++){
         cout<<"Inserisci il Titolo della Trasmissione "<<i+1<<": "; cin>>T[i].titolo;
         cout<<"Inserisci il Cognome del Regista della Trasmissione "<<i+1<<": "; cin>>T[i].regista;
-        cout<<"Inserisci la Durata della Trasmissione "<<i+1<<" in Minuti (Numero): "; cin>>T[i].durata;
+        cout<<"Inserisci la Durata della Trasmissione "<<i+1<<" in Minuti (Numero Arrotondato): "; cin>>T[i].durata;
         cout<<"Inserisci il Giorno del Mese in cui la Trasmissione "<<i+1<<" andra in Onda (Numero): "; cin>>T[i].giorno;
         cls(); // Chiamata Pulisci Schermo
     };
