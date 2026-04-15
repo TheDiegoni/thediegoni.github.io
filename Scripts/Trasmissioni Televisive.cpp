@@ -23,7 +23,7 @@ struct TV{
 // Prototipazione Sottoprogrammi
 void cls(); // Sottoprogramma Pulisci Schermo
 void Programma(int t); // Programma Principale
-void Ordina(TV vett[], int n); // Sottoprogramma Ordinamento
+void Ordina(TV T[], int t); // Sottoprogramma Ordinamento
 void Out(TV T[], int t){for(int i=0; i<t; i++){cout<<T[i].giorno<<" "<<T[i].titolo<<endl;};} // Sottoprogramma Output Trasmissioni
 
 // Main
@@ -84,17 +84,17 @@ void cls(){
 }
 
 // Sottoprogramma Ordinamento
-void Ordina(TV vett[], int n){
+void Ordina(TV T[], int t){
     TV temp; // Salva Temporaneamente un Valore
-    for(int i=0; i<n-1; i++){
-        for(int j=i+1; j<n; j++){
+    for(int i=0; i<t-1; i++){
+        for(int j=i+1; j<t; j++){
             // Scambio Posizione
-            if(vett[j].giorno<vett[i].giorno){
-                temp=vett[j];
-                vett[j]=vett[i];
-                vett[i]=temp;
+            if(T[j].giorno<T[i].giorno){
+                temp=T[j];
+                T[j]=T[i];
+                T[i]=temp;
             };
         };
     };
-    Out(vett, n); // Chiamata Output Trasmissioni
+    Out(T, t); // Chiamata Output Trasmissioni
 }
