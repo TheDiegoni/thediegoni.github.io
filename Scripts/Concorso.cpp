@@ -14,15 +14,10 @@
 using namespace std;
 using namespace tabulate;
 
-// Struct Nome
-struct Nome{
-    string name;
-    string surname;
-};
-
 // Struct Partecipante al Concorso
 struct Partecipante{
-    Nome nome;
+    string name;
+    string surname;
     int punt1;
     int punt2;
     int puntt;
@@ -31,7 +26,7 @@ struct Partecipante{
 // Prototipazione Sottoprogrammi
 void cls(); // Sottoprogramma Pulisci Schermo
 void Programma(int p); // Programma Principale
-void Ordina(Partecipante vett[], int n); // Sottoprogramma Ordinamento
+void Ordina(Partecipante P[], int p); // Sottoprogramma Ordinamento
 
 // Main
 int main(){
@@ -52,8 +47,8 @@ void Programma(int p){
 
     // Ciclo Input
     for(int i=0; i<p; i++){
-        cout<<"Inserisci il Cognome del Concorrente "<<i+1<<": "; cin>>P[i].nome.surname;
-        cout<<"Inserisci il Nome del Concorrente "<<i+1<<": "; cin>>P[i].nome.name;
+        cout<<"Inserisci il Cognome del Concorrente "<<i+1<<": "; cin>>P[i].surname;
+        cout<<"Inserisci il Nome del Concorrente "<<i+1<<": "; cin>>P[i].name;
         cout<<"Inserisci il Punteggio della Prima Prova del Concorrente "<<i+1<<" (Numero): "; cin>>P[i].punt1;
         cout<<"Inserisci il Punteggio della Seconda Prova del Concorrente "<<i+1<<" (Numero): "; cin>>P[i].punt2;
         P[i].puntt=P[i].punt1+P[i].punt2;
@@ -65,7 +60,7 @@ void Programma(int p){
     // Output
     tab.add_row({"Cognome", "Nome", "Prova 1", "Prova 2", "Totale"}); // Aggiungi Fila alla Tabella
     for(int i=0; i<p; i++){
-        tab.add_row({P[i].nome.surname, P[i].nome.name, to_string(P[i].punt1), to_string(P[i].punt2), to_string(P[i].puntt)}); // Aggiungi Fila alla Tabella
+        tab.add_row({P[i].surname, P[i].name, to_string(P[i].punt1), to_string(P[i].punt2), to_string(P[i].puntt)}); // Aggiungi Fila alla Tabella
     };
     cout<<tab; // Output Tabella Dati
 }
@@ -80,15 +75,15 @@ void cls(){
 }
 
 // Sottoprogramma Ordinamento
-void Ordina(Partecipante vett[], int n){
+void Ordina(Partecipante P[], int p){
     Partecipante temp; // Salva Temporaneamente un Valore
-    for(int i=0; i<n-1; i++){
-        for(int j=i+1; j<n; j++){
+    for(int i=0; i<p-1; i++){
+        for(int j=i+1; j<p; j++){
             // Scambio Posizione
-            if(vett[j].puntt>vett[i].puntt){
-                temp=vett[j];
-                vett[j]=vett[i];
-                vett[i]=temp;
+            if(P[j].puntt>P[i].puntt){
+                temp=P[j];
+                P[j]=P[i];
+                P[i]=temp;
             };
         };
     };
